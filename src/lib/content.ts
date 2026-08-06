@@ -725,6 +725,12 @@ export const galleryItems = [
   { src: IMG.ker5, caption: "Palm-lined canals, Alleppey", group: "India" },
   { src: IMG.res3, caption: "Villa sunset — luxury stays", group: "Experiences" },
   { src: IMG.cr4, caption: "Deck views — cruise holidays", group: "Experiences" },
+  { src: "/gallery/1786023240799.jpg", caption: "Office Photograph 1", group: "Experiences" },
+{ src: "/gallery/1786023240837.jpg", caption: "Office Photograph 2", group: "Experiences" },
+{ src: "/gallery/1786023240870.jpg", caption: "Office Photograph 3", group: "Experiences" },
+{ src: "/gallery/1786023240902.jpg", caption: "Office Photograph 4", group: "Experiences" },
+{ src: "/gallery/1786023240932.jpg", caption: "Office Photograph 5", group: "Experiences" },
+{ src: "/gallery/1786023240960.jpg", caption: "Office Photograph 6", group: "Experiences" },
 ];
 
 export const stats = [
