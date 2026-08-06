@@ -1,0 +1,21 @@
+{
+  "name": "ROYAL RAJASTHAN HOLIDAYS",
+  "short_name": "Royal Rajasthan",
+  "description": "We Take You to the World's Most Beautiful Destinations. Bespoke luxury international and India holidays, designed from Jodhpur, Rajasthan since 2005.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFDF8",
+  "theme_color": "#1E4E8C",
+  "lang": "en-IN",
+  "categories": ["travel", "lifestyle", "business"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

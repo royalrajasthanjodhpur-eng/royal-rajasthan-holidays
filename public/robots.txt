@@ -1,0 +1,9 @@
+# ROYAL RAJASTHAN HOLIDAYS
+# D Road, Sardarpura, Jodhpur, Rajasthan, India
+# Phone / WhatsApp: +91 94141 96978
+# Email: royalrajasthanjodhpur@gmail.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.royalrajasthanholidays.com/sitemap.xml

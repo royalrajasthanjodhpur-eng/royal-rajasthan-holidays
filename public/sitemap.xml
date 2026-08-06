@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ROYAL RAJASTHAN HOLIDAYS
+  D Road, Sardarpura, Jodhpur, Rajasthan, India
+  Phone / WhatsApp: +91 94141 96978 · royalrajasthanjodhpur@gmail.com
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.royalrajasthanholidays.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.royalrajasthanholidays.com/about</loc><priority>0.8</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/contact</loc><priority>0.9</priority></url>
+
+  <url><loc>https://www.royalrajasthanholidays.com/destinations</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destinations/international</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destinations/domestic</loc><priority>0.9</priority></url>
+
+  <!-- Prime Group Destinations -->
+  <url><loc>https://www.royalrajasthanholidays.com/destination/dubai</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/vietnam</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/bali</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/singapore</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/thailand</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/malaysia</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/bhutan</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/nepal</loc><priority>0.9</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/sri-lanka</loc><priority>0.9</priority></url>
+
+  <!-- International -->
+  <url><loc>https://www.royalrajasthanholidays.com/destination/azerbaijan</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/egypt</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/georgia</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/hong-kong</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/kazakhstan</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/kenya</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/maldives</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/mauritius</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/philippines</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/seychelles</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/turkey</loc><priority>0.7</priority></url>
+
+  <!-- India -->
+  <url><loc>https://www.royalrajasthanholidays.com/destination/rajasthan</loc><priority>0.8</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/kashmir</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/ladakh</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/kerala</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/goa</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/andaman</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/himachal-pradesh</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/uttarakhand</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/sikkim</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/north-east-india</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/gujarat</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/madhya-pradesh</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/tamil-nadu</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/karnataka</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/odisha</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/destination/golden-triangle</loc><priority>0.8</priority></url>
+
+  <!-- Holiday types -->
+  <url><loc>https://www.royalrajasthanholidays.com/holidays</loc><priority>0.8</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/family-holidays</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/honeymoon</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/senior-citizen-tours</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/luxury-holidays</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/group-tours</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/corporate-travel</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/pilgrimage</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/adventure</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/wildlife</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/beach-holidays</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/holidays/customized-tours</loc><priority>0.7</priority></url>
+
+  <!-- Services -->
+  <url><loc>https://www.royalrajasthanholidays.com/visa</loc><priority>0.8</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/hotels</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/flights</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/cruises</loc><priority>0.7</priority></url>
+
+  <!-- Content -->
+  <url><loc>https://www.royalrajasthanholidays.com/gallery</loc><priority>0.6</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/blog</loc><priority>0.7</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/blog/best-time-to-visit-dubai</loc><priority>0.6</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/blog/first-international-trip-checklist</loc><priority>0.6</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/blog/honeymoon-maldives-vs-bali</loc><priority>0.6</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/blog/senior-citizen-travel-tips</loc><priority>0.6</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/blog/vietnam-7-day-itinerary</loc><priority>0.6</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/blog/understanding-visa-documents</loc><priority>0.6</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/guest-stories</loc><priority>0.6</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/faq</loc><priority>0.7</priority></url>
+
+  <!-- Legal -->
+  <url><loc>https://www.royalrajasthanholidays.com/privacy</loc><priority>0.3</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/terms</loc><priority>0.3</priority></url>
+  <url><loc>https://www.royalrajasthanholidays.com/sitemap</loc><priority>0.3</priority></url>
+</urlset>
