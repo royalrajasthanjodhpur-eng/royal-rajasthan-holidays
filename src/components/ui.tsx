@@ -1,3 +1,5 @@
+"use client";
+
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 import {
   useEffect,
@@ -6,7 +8,7 @@ import {
   type ButtonHTMLAttributes,
   type ReactNode,
 } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../compat/router";
 import { cn } from "../utils/cn";
 
 /* ───────────── Layout ───────────── */

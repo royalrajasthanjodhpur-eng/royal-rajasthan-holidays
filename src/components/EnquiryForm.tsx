@@ -1,6 +1,8 @@
+"use client";
+
 import { Loader2, Send } from "lucide-react";
 import { useState, type FormEvent } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "../compat/router";
 import { BRAND, holidayTypes, waLink } from "../lib/content";
 import { destinations } from "../lib/destinations";
 import { cn } from "../utils/cn";

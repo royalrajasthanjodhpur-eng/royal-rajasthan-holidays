@@ -1,7 +1,9 @@
+"use client";
+
 import Lenis from "lenis";
 import { ArrowUp, MessageCircle, Phone } from "lucide-react";
 import { useEffect, useState, type ReactNode } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "../compat/router";
 import { BRAND, waLink } from "../lib/content";
 import { Footer } from "./Footer";
 import { Header } from "./Header";

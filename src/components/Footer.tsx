@@ -1,6 +1,8 @@
+"use client";
+
 import { Mail, MapPin, MessageCircle, Phone, UserRound } from "lucide-react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../compat/router";
 import { BRAND, holidayTypes, services, waLink } from "../lib/content";
 import { domesticDestinations, internationalSorted, primeDestinations } from "../lib/destinations";
 import { Button } from "./ui";

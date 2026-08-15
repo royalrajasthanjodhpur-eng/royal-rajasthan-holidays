@@ -1,7 +1,9 @@
+"use client";
+
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Menu, MessageCircle, Phone, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "../compat/router";
 import { BRAND, holidayTypes, services, waLink } from "../lib/content";
 import { domesticDestinations, internationalSorted, primeDestinations } from "../lib/destinations";
 import { cn } from "../utils/cn";

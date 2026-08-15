@@ -1,6 +1,8 @@
+"use client";
+
 import { ArrowRight, MessageCircle } from "lucide-react";
 import type { ReactNode } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../compat/router";
 import { waLink } from "../lib/content";
 import type { Destination } from "../lib/destinations";
 import { cn } from "../utils/cn";

@@ -1,5 +1,7 @@
+"use client";
+
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../compat/router";
 import { cn } from "../utils/cn";
 
 /**
