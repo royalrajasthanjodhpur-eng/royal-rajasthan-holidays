@@ -38,16 +38,32 @@ import {
 import { domesticDestinations, internationalSorted, primeDestinations } from "../lib/destinations";
 import { HERO_POSTER, HERO_VIDEO, IMG } from "../lib/media";
 import { Accordion } from "../components/ui";
+import { Wayfinder } from "../components/wayfinder/Wayfinder";
+import { JourneyScene } from "../components/journey/JourneyScene";
+import { PrimeStory } from "../components/journey/PrimeStory";
+import { IncludedStrip } from "../components/journey/IncludedStrip";
+import { CinematicLoader } from "../components/journey/CinematicLoader";
 
 const iconMap = { award: Award, pen: PenLine, user: User, clock: Clock, shield: Shield, heart: Heart };
 
 export default function Home() {
-  
   return (
     <>
+      {/* Skippable ≤2s ritual, once per session, never for reduced motion. */}
+      <CinematicLoader />
+
       <Hero />
       <TrustStrip />
-      <PrimeSection />
+
+      {/* ── The cinematic journey: Rajasthan → the world ──
+          The Wayfinder instrument, the signature scroll scene and the prime
+          story form one continuous midnight-toned movement, before the page
+          returns to its established ivory/beige rhythm. */}
+      <Wayfinder />
+      <IncludedStrip />
+      <JourneyScene />
+      <PrimeStory />
+
       <InternationalSection />
       <DomesticSection />
       <HolidayTypesSection />
@@ -189,32 +205,6 @@ function TrustStrip() {
         </div>
       </Container>
     </section>
-  );
-}
-
-/* ───────────── PRIME ───────────── */
-
-function PrimeSection() {
-  return (
-    <Section tone="ivory" id="prime" label="Prime group destinations">
-      <Container>
-        <SectionHeading
-          kicker="⭐ Prime Group Destinations"
-          title="The nine journeys our guests ask for most"
-          intro="Escorted group departures and private itineraries to the destinations we know better than anyone — each given equal care, equal detail and equal emphasis."
-        />
-        <div className="mt-14 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
-          {primeDestinations.map((d, i) => (
-            <DestinationCard key={d.slug} d={d} large index={i} />
-          ))}
-        </div>
-        <Reveal delay={2} className="mt-12 flex justify-center">
-          <Button to="/destinations" variant="outline" size="lg">
-            View All 36 Destinations
-          </Button>
-        </Reveal>
-      </Container>
-    </Section>
   );
 }
 

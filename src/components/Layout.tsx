@@ -7,6 +7,7 @@ import { useLocation } from "../compat/router";
 import { BRAND, waLink } from "../lib/content";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+import { CustomCursor } from "./journey/CustomCursor";
 
 function useLenis() {
   useEffect(() => {
@@ -85,6 +86,7 @@ export function Layout({ children }: { children: ReactNode }) {
       </main>
       <Footer />
       <FloatingActions />
+      <CustomCursor />
     </div>
   );
 }

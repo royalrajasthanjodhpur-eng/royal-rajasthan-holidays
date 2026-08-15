@@ -11,6 +11,13 @@
   --color-gold-ink: #8a6a1c;
   --color-ivory: #fffdf8;
   --color-beige: #f7f4ee;
+  /* Cinematic depth tones (added for the Wayfinder / homepage journey).
+     Midnight is the deep navy backdrop the brass instrument reads against;
+     sand is its warm counterpoint. Gold remains accent-only. */
+  --color-midnight: #0b1e38;
+  --color-midnight-800: #091830;
+  --color-midnight-600: #14304f;
+  --color-sand: #e8dcc8;
   --color-pearl: #ffffff;
   --color-slateluxe: #56616b;
   --color-charcoal: #202124;
@@ -110,6 +117,44 @@
   .animate-marquee {
     animation: marquee 42s linear infinite;
   }
+
+  /* ── Cinematic journey utilities ───────────────────────────── */
+
+  /* Warm brass vignette used behind the Wayfinder instrument. */
+  .wayfinder-vignette {
+    background:
+      radial-gradient(
+        ellipse 60% 50% at 50% 45%,
+        rgba(212, 178, 90, 0.16),
+        transparent 70%
+      ),
+      radial-gradient(ellipse 80% 80% at 50% 50%, transparent 40%, var(--color-midnight) 100%);
+  }
+
+  /* Champagne-gold gradient text for oversized editorial headings. */
+  .text-champagne {
+    background: linear-gradient(
+      100deg,
+      var(--color-sand) 0%,
+      var(--color-gold-soft) 38%,
+      #f5e6bd 52%,
+      var(--color-gold) 70%,
+      var(--color-sand) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Fine engraved hairline, like an instrument's graduation marks. */
+  .rule-engraved {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(232, 220, 200, 0.45),
+      transparent
+    );
+  }
 }
 
 @keyframes fadeIn {
@@ -120,6 +165,23 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Loader: the instrument ring drawing itself. */
+@keyframes rrh-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Static Wayfinder fallback: a very slow ring turn. */
+@keyframes wf-turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
